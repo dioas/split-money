@@ -3,8 +3,6 @@ import Home from '@/App.vue'
 import HomeIndex from '@/views/Home'
 import Button from '@/components/ButtonSplit'
 import InputSplit from '@/components/InputSplit'
-import TagSplit from '@/components/InputSplit'
-
 test('renders correctly', () => {
   const wrapper = mount(Home)
   expect(wrapper.element).toMatchSnapshot()
@@ -60,27 +58,6 @@ test('renders correctly', () => {
 describe('Component', () => {
   test('is a Vue instance', () => {
     const wrapper = mount(InputSplit)
-    expect(wrapper.isVueInstance()).toBeTruthy()
-  })
-})
-test('renders correctly', () => {
-  const wrapper = mount(TagSplit)
-  expect(wrapper.element).toMatchSnapshot()
-})
-describe('Component', () => {
-  test('is a Vue instance', () => {
-    const wrapper = mount(TagSplit)
-    expect(wrapper.isVueInstance()).toBeTruthy()
-  })
-})
-
-test('renders correctly', () => {
-  const wrapper = mount(TagSplit)
-  expect(wrapper.element).toMatchSnapshot()
-})
-describe('Component', () => {
-  test('is a Vue instance', () => {
-    const wrapper = mount(TagSplit)
     expect(wrapper.isVueInstance()).toBeTruthy()
   })
 })
