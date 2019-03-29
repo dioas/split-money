@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  class="containers"
+  id="app"
+>
+  <div
+    class="paper"
+  >
+    <div
+      id="nav"
+    >
+      <div
+        class="header"
+      >
+        <h1>
+          Split Money
+        </h1>
+      </div>
+    </div>
+     
+    <router-view />
+  </div>
+</div>
+`;
+
+exports[`renders correctly 2`] = `
+<div
+  class="button-split"
+>
+  <button>
+    
+  </button>
+</div>
+`;
+
+exports[`renders correctly 3`] = `
+<div
+  class="button-split"
+>
+  <button>
+    
+  </button>
+</div>
+`;
+
+exports[`renders correctly 4`] = `
+<div
+  class="input-split"
+>
+  <input
+    placeholder="Type something"
+  />
+</div>
+`;
+
+exports[`renders correctly 5`] = `
+<div
+  class="input-split"
+>
+  <input
+    placeholder="Type something"
+  />
+</div>
+`;
+
+exports[`renders correctly 6`] = `
+<div
+  class="input-split"
+>
+  <input
+    placeholder="Type something"
+  />
+</div>
+`;
+
+exports[`renders correctly 7`] = `
+<div
+  class="input-split"
+>
+  <input
+    placeholder="Type something"
+  />
+</div>
+`;
+
+exports[`renders correctly 8`] = `
+<div
+  class="input-split"
+>
+  <input
+    placeholder="Type something"
+  />
+</div>
+`;
